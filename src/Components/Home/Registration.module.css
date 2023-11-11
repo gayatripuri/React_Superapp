@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
+body,html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+.container {
+  width: auto;
+  height: 100vh;
+
+  scrollbar-width: thin;
+  display: flex;
+  position: relative;
+
+  display: grid;
+  grid-template-columns: 50% 55%;
+  overflow: hidden;
+}
+.img-partition {
+  width: 100%;
+  height: 100%;
+ /* background: url("./images/banner.png") no-repeat center center;*/
+ 
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-size: cover;
+}
+.text {
+  margin-left: 40px;
+  margin-bottom: 70px;
+  font-family: Roboto;
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 78px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #ffffff;
+}
+.registration-partition {
+  background-color: #000000;
+}
+.signup-div {
+  display: flex;
+
+  width: 67%;
+
+  
+
+  background-color: #000000;
+
+  margin: 0 auto; /* Apply margin to the left and right of the signup-div */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align the child elements to the left within the signup-div */
+  height: 600px;
+  /* Subtract the left and right margin from the total width */
+  
+}
+.title-div {
+  margin-top: 15px;
+}
+.title-div h1 {
+  color: #72db73;
+  font-family: Single Day;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 94px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 7px;
+}
+.title-div p {
+  color: #ffffff;
+  align-items: center;
+}
+.title-div h3 {
+  color: #ffffff;
+  
+}
+.info-div {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.btn1 {
+  margin-top: 25px;
+  height: 13px;
+  width: 13px;
+}
+.btn2 {
+  background: #72db73;
+  margin-top: 25px;
+  height: 30px;
+  border-radius: 27px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: none;
+}
+form input{
+  border: 2px solid red;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s;
+}
+form input:focus {
+  border-color: #72db73;
+}
+.custom-input {
+  height: 30px;
+  margin-top: 5px;
+
+  color: #ffffff;
+  background: #292929;
+
+  padding: 5px;
+  margin: 4px;
+}
+input::placeholder {
+  color: #7c7c7c;
+  padding-left: 10px;
+}
+.checkboxouterdiv {
+  display: flex;
+}
+.checkboxouterdiv p {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+p {
+  font-size: 11px;
+  color: #ffffff;
+}
+span {
+  color: #72db73;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 10px;
+}
+form button:hover {
+  background-color: #5cb85c;
+}
+.footer p {
+  font-size: 14px;
+  color: #7c7c7c;
+  width: 90%;
+  max-width: 400px;
+  margin: 8px auto;
+  text-align: left;
+  line-height: 1.2rem;
+}
+
+.footer span {
+  color: #72db73;
+  cursor: pointer;
+}

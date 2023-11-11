@@ -1,0 +1,30 @@
+
+body{
+    background-color: black;
+    
+}
+.container {
+    max-width: 60vw;
+    width: 41vw;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    justify-items: stretch;
+    gap: 1rem;
+    margin-left: 3rem;
+    
+    margin: 0 auto;
+  }
+  .next {
+    grid-column: 3/-1;
+    width: 10rem;
+    justify-self: end;
+    background-color: #148a08;
+    padding: 0.5rem 0.3rem;
+    border: none;
+    font-size: 1.3rem;
+    color: #fff;
+    border-radius: 10rem;
+    cursor: pointer;
+  }

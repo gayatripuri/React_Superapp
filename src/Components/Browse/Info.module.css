@@ -1,0 +1,49 @@
+.card {
+    background: #5746ea;
+    width: 100%;
+    height: 60%;
+    border-radius: 2rem;
+    padding: 1.5rem 3rem;
+    display: flex;
+    gap: 4rem;
+  }
+  .profile img {
+    height: 100%;
+  }
+  .details p {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+  }
+  .details p:first-child {
+    margin-top: 2rem;
+  }
+  .details .username {
+    font-size: 6rem;
+    font-weight: 700;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+  }
+  .tokens {
+    display: grid;
+    /* justify-content: space-evenly;
+    flex-wrap: wrap; */
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .token {
+    background-color: #9f94ff;
+    width: 15rem;
+    height: 4rem;
+    border-radius: 3rem;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    margin: 0 1rem 1rem 0;
+    font-size: 2.5rem;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
