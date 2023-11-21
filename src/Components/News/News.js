@@ -10,7 +10,7 @@ function News() {
   useEffect(() => {
     axios
       .get(
-        "https://newsapi.org/v2/everything?q=apple&from=2023-04-13&to=2023-04-13&sortBy=popularity&apiKey=de4b8e615b834a419097cb5d008d8e81"
+        "https://newsapi.org/v2/everything?q=keyword&apiKey=98709625029a4b99be49eb31e50eba5b"
       )
       .then((res) => setNews(res.data.articles[0]));
   }, []);
